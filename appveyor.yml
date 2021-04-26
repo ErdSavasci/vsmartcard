@@ -12,6 +12,7 @@ environment:
   - BUILD: ACardEmulator
     APPVEYOR_BUILD_WORKER_IMAGE: Previous Visual Studio 2017
 
+
 install:
  - ps: >-
      If ($env:Platform -Match "x86") {
