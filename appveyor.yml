@@ -26,6 +26,7 @@ install:
        $env:ARTIFACT="${env:BUILD}_win64"
        $env:X64="x64\"
      }
+ - git submodule update --init --recursive
 
  - ps: >-
      If ($env:APPVEYOR_BUILD_WORKER_IMAGE -eq "Visual Studio 2019") {
