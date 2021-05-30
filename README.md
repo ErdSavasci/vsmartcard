@@ -18,17 +18,17 @@ Please refer to [our project's website](http://frankmorgner.github.io/vsmartcard
 
 ### Update: 2021/05/31
 
-#### Steps to build and install on Windows 
+#### Steps to build and install on Windows 10
 Note: These steps are valid for Visual Studio 2019. Some other further steps may be needed for other VS versions.
 <br>
 1. Run git submodule update --init --recursive when cloned the repository.
-2. Install Wix Toolset build tools from https://wixtoolset.org/releases/
-3. Install Wix Extension for Visual Studio
-4. Determine the correct solution platform and solution configuration (x86/x64)
-5. Build the solution (Consists of 3 projects)
-6. Create 'BixVReader.ini' file in C:\Windows
-7. Install via BixVReaderInstaller.msi
-8. Add the generated 'BixVReader.cer' certificate to the Trusted Root Certification Authorities and Trusted Publishers certificate stores for Local Machine via 'certlm.msc'.
+2. Install Wix Toolset build tools from https://wixtoolset.org/releases/.
+3. Install Wix Extension for Visual Studio.
+4. Determine the correct solution platform and solution configuration. (x86/x64)
+5. Build the solution. (Consists of 3 projects)
+6. Create 'BixVReader.ini' file in C:\Windows.
+7. Install via BixVReaderInstaller.msi.
+8. Add the generated 'BixVReader.cer' certificate to the Trusted Root Certification. Authorities and Trusted Publishers certificate stores for Local Machine via 'certlm.msc'.
 9. Update the driver with the driver package files from Device Manager.
 10. Voila! 'Bix Virtual Smart Card Reader' should be seen on Device Manager.
 
