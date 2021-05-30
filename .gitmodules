@@ -25,6 +25,6 @@
 [submodule "ccid/src/OpenSC"]
 	path = ccid/src/OpenSC
 	url = https://github.com/OpenSC/OpenSC.git
-[submodule "virtualsmartcard/win32/DevMsi"]
-	path = virtualsmartcard/win32/DevMsi
-	url = https://github.com/nickrussler/DevMsi.git
+# [submodule "virtualsmartcard/win32/DevMsi"]
+# 	path = virtualsmartcard/win32/DevMsi
+# 	url = https://github.com/nickrussler/DevMsi.git
